@@ -1,0 +1,24 @@
+form {
+  display: grid;
+  width: 40%;
+  min-width: 250px;
+  margin: auto;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.success,.echec {
+  width: 350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.success
+ {
+  color: green;
+}
+.echec {
+  color: red;
+}
